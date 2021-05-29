@@ -2,9 +2,8 @@ import * as React from "react"
 import {useState} from "react"
 
 import Button from 'react-bootstrap/Button'
-import Spinner from 'react-bootstrap/Spinner'
 import * as pdfjsLib from 'pdfjs-dist'
-import { PDFDocument, Page, rgb, degrees, grayscale } from 'pdf-lib'
+import { PDFDocument, rgb } from 'pdf-lib'
 import download from 'downloadjs'
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.js`;
@@ -100,7 +99,6 @@ const IndexPage = () => {
   const [phrasePageContextBefore, setPhrasePageContextBefore] = useState(1);
   const [phrasePageContextAfter, setPhrasePageContextAfter] = useState(1);
   const [processing, setProcessing] = useState(false);
-  const [result, setResult] = useState(null);
 
   const onFileSelection = (event) => {
     setFile(event.target.files[0]);
