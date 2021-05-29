@@ -15,11 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bootstrap": "^5.0.1",
+    "downloadjs": "^1.4.7",
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.3.0",
     "gatsby-plugin-google-analytics": "^3.3.0",
     "gatsby-plugin-sass": "^4.3.0",
+    "pdf-lib": "^1.16.0",
+    "pdfjs-dist": "^2.7.570",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
     "sass": "^1.32.11"
   }
