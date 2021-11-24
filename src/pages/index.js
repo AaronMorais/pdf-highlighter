@@ -18,7 +18,6 @@ const pageStyles = {
   height: '100vh',
 }
 const headingStyles = {
-  marginTop: 12,
   marginBottom: 36,
   display: 'flex',
   width: '100%',
@@ -225,6 +224,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>PDF Highlight</title>
+      <a href="https://github.com/AaronMorais/pdf-highlighter"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1" /></a>
       <h1 style={headingStyles}><span>PDF Highlight</span></h1>
       <div style={mainContainerStyles}>
         <div style={optionMenuStyles}>

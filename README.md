@@ -8,3 +8,9 @@ Highlights phrases in PDFs using pdf-lib and pdf.js. You can also exclude pages 
 - Use a different highlight color for each phrase
 - Add live preview
 - Speed up processing
+
+## Development command
+`npm install && npm run develop`
+
+## Deployment command
+`npm run deploy`
